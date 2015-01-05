@@ -79,7 +79,7 @@ public class MainActivity extends Activity {
 	}
 
 	private class OnlineSyncTask extends AsyncTask<Void, Void, Boolean> {
-		private static final String ARTIST_HOST = "http://barbosam.student.uscitp.com/m_of_t/json/artist_mobile_json.php";
+		private static final String ARTIST_HOST = "http://barbosam.student.uscitp.com/music_of_troy/json/artist_mobile_json.php";
 		private Context context;
 		private DBConnector dbConnector = new DBConnector(
 				getApplicationContext());
